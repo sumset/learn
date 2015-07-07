@@ -1,4 +1,4 @@
-Creating a new branch is quick.
+Creating a new branch is quick AND simple.
 Git is a distributed version control sytem.
 Git is free software distributed under GPL.
 Git has a mutable index called stage.
