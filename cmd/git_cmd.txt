@@ -1,0 +1,21 @@
+
+
+git init 
+git status 
+git log
+------------------------------------------
+git clone git@github.com:sumset/learn.git
+
+git add .
+git commit -m "test commit"
+
+git push origin master
+-------------------------------------------
+
+git remote add origin root@120.24.52.50:/srv/zyy.git
+
+git remote -v
+
+git branch -va
+
+git clone root@120.24.52.50:/srv/sample.git
