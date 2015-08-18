@@ -28,3 +28,33 @@
 * python中两个字符串，挨着放，会自动拼接在一起
 * 字符串乘以负数 = 空串 
 
+模块
+	引用模块后，就可以用  help(module) 查看里面的函数了。
+
+	精确引入  from math import sqrt,pi
+
+	完整模块列表   docs.python.org/modindex.html
+
+	__name__ 识别是否是主程序，还是模块
+
+文档字符串
+	文件或函数的第一行是字符串，且没有赋值给任何变量。则作为文档字符串，给help函数使用
+
+常用的字符串方法
+	capitalize()
+	find(s)
+	find(s,beg)
+	find(s,beg,end)
+	islower()
+	isupper()
+	lower()
+	upper()
+	replace(old,new)
+	split()    空格分隔
+ 	split(del)
+ 	strip()    删除两端空白
+ 	strip(s)   删除字符串中的s
+ 	
+
+
+
