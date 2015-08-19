@@ -54,7 +54,15 @@
  	split(del)
  	strip()    删除两端空白
  	strip(s)   删除字符串中的s
- 	
+ 	swapcase() 大小写转换
 
+ * 可以链式调用
+
+--------
+  QA : 检查软件是否正确运行的工作叫做 质量保证 ( Quality Assurance )
+  Nose 是流行的针对Python的测试库之一
+
+  unittest Python自带的测试库
+  
 
 
