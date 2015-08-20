@@ -2,6 +2,8 @@
 <<python编程实践>>
 	--假装不会coding，慢慢来。
 
+C:\Python27\Scripts\easy_install.exe
+
 * 计算型思维
 
 	1. 强调概念化，而非程序化。计算机科学不是计算机编程。像计算机科学家一样的思考，不只是说要会编程，还需要能在多个抽象层次上思考
@@ -63,6 +65,35 @@
   Nose 是流行的针对Python的测试库之一
 
   unittest Python自带的测试库
+
+  nose 测试：
+  	测试模块的名称，测试函数的名称都以  test_  开头
+  	每个Nose测试模块包含以下内容：
+  	1.用于引入Nose以及待测模块的语句
+  	2.实际用于测试我们模块的函数
+  	3.用于触发那些测试函数的函数调用
+
+eg: test_temperature.py
+  	import nose
+  	import temperature
+
+  	def test_to_celsius():
+  	    assert tempareture.to_celsius(32) == 0 ,'Returning an un result...'
+
+  	if __name__ == '__main__':
+  	    nose.runmodule()
   
+------
+   列表
+   列表是异构的，可以存储任意类型的数据
+
+   len(L)
+   max(L)
+   min(L)
+   sum(L)
+
+   列表相加得到新的列表
+   列表相乘
+   
 
 
