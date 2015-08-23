@@ -83,7 +83,7 @@ eg: test_temperature.py
   	if __name__ == '__main__':
   	    nose.runmodule()
   
-------
+--------      切片，索引，迭代 ----
    列表
    列表是异构的，可以存储任意类型的数据
 
@@ -95,5 +95,25 @@ eg: test_temperature.py
    列表相加得到新的列表
    列表相乘
    
+   别名机制
+
+   list
+   	append
+   	insert
+   	remove
+
+   许多列表方法只是放回None，并不返回新的列表
+
+  把文件看做列表
+    file = open('data.txt','r')
+    for line in file:           # auto called the method readline
+        print len(line)
+
+-----
+命令行参数  
+  参数值将会以字符串的形式存入 sys模块提供的 argv变量中
+  sys.argv[0]  python程序的名称  sys.argv[1]  sys.argv[2] ...
+
+print ' a'      print ' a',  有逗号，则不换行接下一个print输出的内容
 
 
