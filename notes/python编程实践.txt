@@ -115,5 +115,34 @@ eg: test_temperature.py
   sys.argv[0]  python程序的名称  sys.argv[1]  sys.argv[2] ...
 
 print ' a'      print ' a',  有逗号，则不换行接下一个print输出的内容
+----
+  and or not
+  0 和 0.0 看做 False ,其他数字为 True
+  空字符串看做 False，其他字符串为True
+  False or 18.2  --> 28.1999999999999999
+
+----
+
+获得列表的索引
+values = ['a','b','c']
+for i in range(len(values)):
+    print i ,values[i]
+
+enumerate() -- 得到索引和元素的  pair
+
+values = [1,2,3]
+for pair in enumerate(values):
+    i = pair[0]
+    v = pair[1]
+    values[i] = 2 * v
+
+or
+
+for (i,v) in enumerate(values):
+    values[i] = 2 * v
+
+多值赋值 
+
+
 
 
